@@ -5,6 +5,8 @@ class LuaDll < Formula
   sha256 "b9e2e4aad6789b3b63a056d442f7b39f0ecfca3ae0f1fc0ae4e9614401b69f4b"
   revision 0
 
+  conflicts_with "lua"
+
   bottle do
     cellar :any
     sha256 "5e52670b9b9c2554018545afcc13a08efde638aab521d39740c273992fc65922" => :el_capitan
